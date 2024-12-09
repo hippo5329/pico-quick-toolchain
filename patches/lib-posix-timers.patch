@@ -1,0 +1,16 @@
+diff --git a/newlib/libc/include/time.h b/newlib/libc/include/time.h
+index ab3491341..68e647dd0 100644
+--- a/newlib/libc/include/time.h
++++ b/newlib/libc/include/time.h
+@@ -149,6 +149,10 @@ extern __IMPORT char *_tzname[2];
+ 
+ #include <sys/features.h>
+ 
++#ifndef _POSIX_TIMERS
++#define _POSIX_TIMERS 0
++#endif
++
+ #ifdef __CYGWIN__
+ #include <cygwin/time.h>
+ #endif /*__CYGWIN__*/
+
