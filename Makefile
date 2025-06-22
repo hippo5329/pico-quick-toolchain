@@ -283,7 +283,7 @@ GMP_VER := 6.2.1
 PICOSDK_BRANCH  := develop # 2.1.1
 OPENOCD_BRANCH  := sdk-2.0.0
 PICOTOOL_BRANCH := develop # 2.1.1
-MKLITTLEFS_BRANCH := 4.0.2
+MKLITTLEFS_BRANCH := master # 4.0.2
 LIBEXPAT_BRANCH := R_2_4_4
 
 # GCC et. al configure options
